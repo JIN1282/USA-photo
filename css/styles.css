@@ -17,8 +17,9 @@ h1 {
     text-align: center;
     position: fixed;
     top: 400px;
-    left: 1700px;
+    right: 53px;
     border-bottom: 2px solid black;
+    float: right;
 }
 
 .menu-item {
@@ -29,6 +30,7 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: none;
+
 }
 
 .menu-item a:not(last-child) {
