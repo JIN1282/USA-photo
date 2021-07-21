@@ -1,60 +1,78 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>JIN's photo</title>
-        <link href="css/styles.css" rel="stylesheet"
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Montserrat&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome!</title>
+</head>
+<style>
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+}
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+}
 
+#menu-logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    line-height: 60px;
+}
 
-    <body>
-        <h1>Photograph</h1>
-        <div class="menu">
-            <a href="index.html" class="menu-item"><b>New York</b></a><br>
-            <a href="sanfrancisco.html" class="menu-item">San Francisco</a><br>
-            <a href="westernusa.html" class="menu-item">Western USA</a><br>
+#sidenav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+    line-height: 60px;
+}
+
+.sidenavi {
+    float: left;
+}
+
+.menu-link {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 25px;
+
+}
+
+#main {
+    background-image: url("images/main.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+</style>
+
+<body>
+    <div id="navbar">
+        <a href="#" id="menu-logo">PHOTOGRAPH</a>
+        <ul id="sidenav">
+            <li class="sidenavi"><a href="newyork.html" class="menu-link">New York</a></li>
+            <li class="sidenavi"><a href="sanfrancisco.html" class="menu-link">San Francisco</a></li>
+            <li class="sidenavi"><a href="westernusa.html" class="menu-link">Western USA</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="info">
+            <h1>Welcome to my gallery.</h1>
+            <a href="https://www.instagram.com/chosungzin/" target="_blank">Visit Instagram</a>
         </div>
-        </div>
-        <div class="photo">
-            <a href="https://www.officialworldtradecenter.com/en/local/learn-about-wtc/oculus-transportation-hub.html"
-            target="_blank">
-            <img class="poster" src="images/newyork1.jpg" width="250"></a>
-            <p class="text1"><i>The oculus</i>, New york</p>
-            <p class="text2">awesome
-            </p>
-        </div>
-
-        <div class="photo">
-            <a href="https://en.wikipedia.org/wiki/SoHo,_Manhattan" target="_blank">
-            <img src="images/newyork2.jpg" class="poster" width="250"></a>
-            <p class="text1"><i>Soho</i>, New york</p>
-            <p class="text2">cool
-            </p>
-        </div>
-
-        <div class="photo">
-            <a href="https://en.wikipedia.org/wiki/Gay_pride" target="_blank">
-            <img src="images/newyork3.jpg" class="poster" width="250"></a>
-            <p class="text1"><i>Manhattan</i>, New york, RGBT day</p>
-            <p class="text2">very hot
-            </p>
-        </div>
-
-        <div class="photo">
-            <a href="https://en.wikipedia.org/wiki/Times_Square" target="_blank">
-            <img src="images/newyork4.jpg" class="poster" width="250"></a>
-            <p class="text1"><i>The time square</i>, New york</p>
-            <p class="text2">very crowded
-            </p>
-        </div>
-
-
-    </body>
-
+    </div>
+</body>
 </html>
-
