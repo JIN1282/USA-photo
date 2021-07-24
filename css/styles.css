@@ -54,12 +54,30 @@ li a:hover {
     font-weight: bold;
 }
 
+.hero-header {
+    background-image: url("../images/newyork_main.jpg");
+    background-size: cover;
+    height: 450px;
+}
+
+.hero-header2 {
+    background-image: url("../images/san_main.jpg");
+    background-size: cover;
+    height: 450px;
+}
+
+.hero-header3 {
+    background-image: url("../images/wes.main.jpg");
+    background-size: cover;
+    height: 450px;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 75px;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 .photo {
@@ -72,9 +90,6 @@ h1 {
     margin-right: auto;
 }
 
-.photo:first-child {
-    margin-top: 101px;
-}
 .text1 {
     text-align: center;
 }
