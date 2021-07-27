@@ -1,65 +1,114 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>JIN's photo</title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Montserrat&display=swap" rel="stylesheet">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to my website!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+  }
+  body {
+    margin: 0;
+  }
 
-    <body>
-        <header id="navbar">
-            <a href="https://www.instagram.com/chosungzin/" target="_blank" id="logo-text"><img id="logo" src="images/instagram.png">
-            <b>visit Instagram</b></a>
-            <ul>
-                <li><a href="index.html"><U>New York</U></a></li>
-                <li><a href="sanfrancisco.html">San Francisco</a></li>
-                <li><a href="westernusa.html">Western USA</a></li>
-            </ul>
-        </header>
+  .div1 {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    padding: 0 10px 0 30px;
+    line-height: 150px;
+  }
 
-        <div class="hero-header"></div>
+  .main-text {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 50px;
+  }
 
-        <h1>PHOTOGRAPH</h1>
+  .main-list {
+    padding: 0;
+    margin: 0;
+    float: right;
+    list-style: none;
+  }
 
-            <div class="photo">
-                <a href="https://www.officialworldtradecenter.com/en/local/learn-about-wtc/oculus-transportation-hub.html"
-                target="_blank">
-                <img class="poster" src="images/newyork1.jpg" width="250"></a>
-                <p class="text1"><i>The oculus</i>, New york</p>
-                <p class="text2">awesome
-                </p>
-            </div>
+  .main-link {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-            <div class="photo">
-                <a href="https://en.wikipedia.org/wiki/SoHo,_Manhattan" target="_blank">
-                <img src="images/newyork2.jpg" class="poster" width="250"></a>
-                <p class="text1"><i>Soho</i>, New york</p>
-                <p class="text2">cool
-                </p>
-            </div>
+  .main-link a {
+    text-decoration: none;
+    font-size : 30px;
+    color: white;
+  }
 
-            <div class="photo">
-                <a href="https://en.wikipedia.org/wiki/Gay_pride" target="_blank">
-                <img src="images/newyork3.jpg" class="poster" width="250"></a>
-                <p class="text1"><i>Manhattan</i>, New york, RGBT day</p>
-                <p class="text2">very hot
-                </p>
-            </div>
+  .div2 {
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-image:url("images/main.JPG");
+    background-size: cover;
+    background-position: center;
+  }
 
-            <div class="photo">
-                <a href="https://en.wikipedia.org/wiki/Times_Square" target="_blank">
-                <img src="images/newyork4.jpg" class="poster" width="250"></a>
-                <p class="text1"><i>The time square</i>, New york</p>
-                <p class="text2">very crowded
-                </p>
-            </div>
+  .div3 {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    line-height: 100px;
+    padding: 0 30px;
+  }
 
 
-    </body>
+  .info {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+  }
 
+  .footer-list {
+    padding: 20px 0 0 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+  }
+
+  .footer-link {
+    float: left;
+  }
+
+
+  .SNS {
+    margin-right: 20px;
+  }
+</style>
+<body>
+  <div class="div1">
+    <div class="header">
+      <h class="main-text">GALLERY JIN</h>
+      <ul class="main-list">
+        <li class="main-link"><a href="newyork.html">USA</a></li>
+        <li class="main-link"><a href="#">Art work</a></li>
+        <li class="main-link"><a href="#">Photograph</a> </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="div2"></div>
+  <div class="div3">
+    <h class="info">CHO SUNG JIN / C.P : 01024971282</h>
+    <ul class="footer-list">
+      <li class="footer-link"><a href="https://www.instagram.com/chosungzin/" target="_blank">
+        <img class="SNS" src="images/maininstagram.png" width="40px"></a></li>
+    </ul>
+  </div>
+</body>
 </html>
-
