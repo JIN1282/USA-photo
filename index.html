@@ -2,33 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Welcome to my website!</title>
+  <title>GALLERYJIN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <style>
   * {
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
   }
   body {
     margin: 0;
   }
 
-  .div1 {
+  .header {
     width: 100%;
     height: 150px;
     background-color: black;
     padding: 0 10px 0 30px;
-    line-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .main-text {
     display: inline-block;
     vertical-align: middle;
     color: white;
-    font-size: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: .5em;
+    text-decoration: none;
   }
 
   .main-list {
@@ -46,8 +51,13 @@
 
   .main-link a {
     text-decoration: none;
-    font-size : 30px;
+    font-size : 16px;
+    letter-spacing: .2em;
     color: white;
+  }
+
+  .main-link a:hover {
+    color: #5e5e5e
   }
 
   .div2 {
@@ -62,53 +72,33 @@
     width: 100%;
     height: 100px;
     background-color: black;
-    line-height: 100px;
     padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 
   .info {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 20px;
-    color: white;
-  }
-
-  .footer-list {
-    padding: 20px 0 0 0;
-    margin: 0;
-    list-style: none;
-    float: right;
-  }
-
-  .footer-link {
-    float: left;
-  }
-
-
-  .SNS {
-    margin-right: 20px;
+    font-size: 13px;
+    color: #5e5e5e;
+    text-align: center;
   }
 </style>
 <body>
-  <div class="div1">
     <div class="header">
-      <h class="main-text">GALLERY JIN</h>
+      <a href="index.html" class="main-text">GALLERY JIN</a>
       <ul class="main-list">
-        <li class="main-link"><a href="newyork.html">USA</a></li>
-        <li class="main-link"><a href="#">Art work</a></li>
-        <li class="main-link"><a href="#">Photograph</a> </li>
+        <li class="main-link"><a href="newyork.html">PHOTOGRAPH</a></li>
+        <li class="main-link"><a href="#">ART WORK</a></li>
+        <li class="main-link"><a href="about.html">ABOUT</a> </li>
       </ul>
     </div>
-  </div>
 
   <div class="div2"></div>
+
   <div class="div3">
-    <h class="info">CHO SUNG JIN / C.P : 01024971282</h>
-    <ul class="footer-list">
-      <li class="footer-link"><a href="https://www.instagram.com/chosungzin/" target="_blank">
-        <img class="SNS" src="images/maininstagram.png" width="40px"></a></li>
-    </ul>
+    <h class="info">@2021 CHOSUNGJIN</h>
   </div>
 </body>
 </html>
